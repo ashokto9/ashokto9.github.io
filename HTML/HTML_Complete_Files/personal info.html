@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> personnel info</title>
+    <style>
+        body {
+            font-family: "Comic Sans MS", sans-serif;
+            background-image: url("https://d1u4oo4rb13yy8.cloudfront.net/article/77352-onfmqbrthv-1514128399.jpg")
+        }
+        h1{
+            text-align: center;
+            text-shadow: 0 0 15px red;
+        }
+        fieldset{
+            border: 2px solid white;
+            padding: 20px;
+            background-color: rgba(0,0,0,0.5);
+            box-shadow: 0 0 15px black;
+            margin: 20px;
+            border-top-right-radius: 30px;
+            border-bottom-left-radius: 30px;
+        }
+        legend{
+            font-family: "Old English Text MT",sans-serif;
+            font-size: 20px;
+            background-color: darkred;
+            padding: 14px 25px;
+            border: 2px solid white;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+        table{
+            width: 100%;
+            font-size: 18px;
+            color: white;
+        }
+        td{
+            padding: 5px;
+        }
+        input[type='text'],
+        input[type='month'],
+        input[type='time'],
+        input[type='date'],
+        input[type='number']{
+            font-size: 18px;
+            height: 35px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+        }
+        textarea{
+            border: none;
+            outline: none;
+            width: 210px;
+            border-radius: 10px;
+        }
+        input[type='text']:focus,
+        input[type='month']:focus,
+        input[type='time']:focus,
+        input[type='date']:focus,
+        input[type='number']:focus,
+        textarea:focus{
+            background-color: #a28f6f;
+            box-shadow: 0 0 15px darkred;
+        }
+        .button{
+            background-color: darkred;
+            color:orangered;
+            font-size: 18px;
+            border: none;
+            padding: 12px 55px;
+            border-radius: 10px;
+        }
+        .button:hover{
+            cursor: pointer;
+            box-shadow: 0 0 15px white;
+        }
+    </style>
+</head>
+<body>
+<h1 align="center">My Personal Information</h1>
+<fieldset>
+    <legend>Education Details
+    </legend>
+    <table>
+        <tr>
+            <td>
+                SSC
+            </td>
+            <td>
+                <input type="text">
+            </td>
+        <td>
+            <input type="number" min="0" max="100">
+        </td>
+        </tr>
+        <tr>
+            <td>
+                Intermediate
+            </td>
+            <td>
+                <input type="text">
+            </td>
+            <td>
+                <input type="number" min="0" max="100">
+            </td>
+        </tr>  <tr>
+        <td>
+            B Tech
+        </td>
+        <td>
+            <input type="text">
+        </td>
+        <td>
+            <input type="number" min="0" max="100">
+        </td>
+    </tr>
+    </table>
+</fieldset>
+<fieldset>
+    <legend>Languages
+    </legend>
+    <table>
+        <tr>
+            <td colspan="2">languages known</td>
+            <td><input type="checkbox" value="telugu">Telugu</td>
+            <td><input type="checkbox" value="english">English</td>
+            <td><input type="checkbox" value="kannada">Kannada</td>
+        </tr>
+        <tr>
+        <td>
+            permanent address
+        </td>
+        <td> <textarea rows="5"cols="20">
+        </textarea>
+
+</body>
+</html>
